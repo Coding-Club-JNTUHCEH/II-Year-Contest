@@ -11,3 +11,4 @@ int birthday(vector<int> s, int d, int m) {
     }
     cout<<count;
     return count;
+}
