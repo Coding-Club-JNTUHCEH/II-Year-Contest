@@ -8,6 +8,7 @@ int main(){
     cin >> x >> y >> z;
     int a = abs(x-z);
     int b = abs(y-z);
+    // abs gives the modulus or absolute value.
     if (a == b) cout << 'C';
     else if (a > b) cout << 'B';
     else    cout << 'A';
